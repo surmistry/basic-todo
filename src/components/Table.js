@@ -75,7 +75,7 @@ class ExampleComponent extends React.Component {
               (
               <>
               <h2>
-              View {users[this.state.selected].name}'s todo list
+              View {users[this.state.selected +1].name}'s todo list
               </h2>
               <p>they have completed {userTodos.filter(({completed}) => completed).length} tasks on their todo list</p>
               </>
