@@ -1,0 +1,4 @@
+.Table--listUserContainers {
+  display: 'flex';
+  justify-content: space-between;
+}
